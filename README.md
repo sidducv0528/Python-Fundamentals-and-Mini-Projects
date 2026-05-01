@@ -1,5 +1,8 @@
 # Python Fundamentals and Mini Projects Portfolio
 
+## 🔗 View Full Notebook on Google Colab
+[Open Python Fundamentals Portfolio in Colab](https://colab.research.google.com/gist/sidducv0528/4bc6d082277f6d37144682cda33745af/python_fundamentals_portfolio.ipynb)
+
 A hands-on Python portfolio showcasing my journey from beginner to advanced Python through structured learning, practical exercises, and 16 mini projects.
 
 ---
