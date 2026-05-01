@@ -1,75 +1,52 @@
-# 🐍 Python Mini Projects
+## 🌟 Mini Projects — Run Online Instantly
 
-A collection of 16 Python mini projects organized by difficulty level, extracted from the Python Fundamentals Portfolio notebook.
+### 🟢 Beginner
 
-## 📁 Folder Structure
+| # | Project | Description | Run Online |
+|---|---------|-------------|------------|
+| 1 | **Calculator** | Basic arithmetic operations | [![Run](https://img.shields.io/badge/▶%20Run%20Online-4CAF50?style=flat-square)](https://www.programiz.com/online-compiler/10mYG24ZdUcPz) |
+| 2 | **Compound Interest** | Calculates compound interest with formula | [![Run](https://img.shields.io/badge/▶%20Run%20Online-4CAF50?style=flat-square)](https://www.programiz.com/online-compiler/27Dv6ZC57O7Dw) |
+| 3 | **Countdown Timer** | Counts down from a given time | [![Run](https://img.shields.io/badge/▶%20Run%20Online-4CAF50?style=flat-square)](https://www.programiz.com/online-compiler/1MSgrElEhnNb1) |
+| 4 | **Mad Libs** | Fill-in-the-blank story generator | [![Run](https://img.shields.io/badge/▶%20Run%20Online-4CAF50?style=flat-square)](https://www.programiz.com/online-compiler/5NTxpJxQXBvDD) |
+| 5 | **Temperature Converter** | Converts between Celsius, Fahrenheit, Kelvin | [![Run](https://img.shields.io/badge/▶%20Run%20Online-4CAF50?style=flat-square)](https://www.programiz.com/online-compiler/88MC5zXGiDTTt) |
+| 6 | **Weight Converter** | Converts weight across different units | [![Run](https://img.shields.io/badge/▶%20Run%20Online-4CAF50?style=flat-square)](https://www.programiz.com/online-compiler/7NTxp7vGJBeBI) |
 
-```
-mini_projects/
-│
-├── beginner_projects/
-│   ├── mad_libs.py
-│   ├── calculator.py
-│   ├── weight_converter.py
-│   ├── temperature_converter.py
-│   ├── compound_interest.py
-│   └── countdown_timer.py
-│
-├── intermediate_projects/
-│   ├── shopping_cart.py
-│   ├── quiz_game.py
-│   ├── concession_stand.py
-│   ├── banking_function.py
-│   ├── diary_app.py
-│   ├── number_guessing.py
-│   └── rock_paper_scissors.py
-│
-└── advanced_projects/
-    ├── oop_banking.py
-    ├── slot_machine.py
-    └── encryption_program.py
-```
+### 🟡 Intermediate
 
-## 🟢 Beginner Projects
+| # | Project | Description | Run Online |
+|---|---------|-------------|------------|
+| 1 | **Banking System (Functions)** | Deposit, withdraw, check balance using functions | [![Run](https://img.shields.io/badge/▶%20Run%20Online-FF9800?style=flat-square)](https://www.programiz.com/online-compiler/4xlFUvNdxrFIq) |
+| 2 | **Concession Stand** | Order system with price calculation | [![Run](https://img.shields.io/badge/▶%20Run%20Online-FF9800?style=flat-square)](https://www.programiz.com/online-compiler/3jCOyM2HnvW0g) |
+| 3 | **Diary App** | Create and read diary entries with file handling | [![Run](https://img.shields.io/badge/▶%20Run%20Online-FF9800?style=flat-square)](https://www.programiz.com/online-compiler/8dIE74tOvhQrF) |
+| 4 | **Number Guessing Game** | Guess the secret number with hints | [![Run](https://img.shields.io/badge/▶%20Run%20Online-FF9800?style=flat-square)](https://www.programiz.com/online-compiler/0RcDASnqWC8jV) |
+| 5 | **Quiz Game** | Multiple choice quiz with score tracking | [![Run](https://img.shields.io/badge/▶%20Run%20Online-FF9800?style=flat-square)](https://www.programiz.com/online-compiler/5RcDASlM1C6rc) |
+| 6 | **Rock Paper Scissors** | Play against the computer | [![Run](https://img.shields.io/badge/▶%20Run%20Online-FF9800?style=flat-square)](https://www.programiz.com/online-compiler/3S5yXFyfn6aK8) |
+| 7 | **Shopping Cart** | Add items, view cart, calculate total | [![Run](https://img.shields.io/badge/▶%20Run%20Online-FF9800?style=flat-square)](https://www.programiz.com/online-compiler/0udziGQCOH8UU) |
 
-| File | Description | Concepts Used |
-|------|-------------|---------------|
-| `mad_libs.py` | Fill-in-the-blank funny story generator | Variables, `input()`, f-strings |
-| `calculator.py` | Basic arithmetic calculator | `if/elif/else`, operators |
-| `weight_converter.py` | Convert kg ↔ pounds | `if/elif`, float input |
-| `temperature_converter.py` | Convert °C ↔ °F | `if/elif`, math operations |
-| `compound_interest.py` | Calculate A = P(1 + r/100)^t | `while` loop, input validation |
-| `countdown_timer.py` | Live HH:MM:SS countdown | `for` loop, `time` module |
+### 🔴 Advanced
 
-## 🟡 Intermediate Projects
-
-| File | Description | Concepts Used |
-|------|-------------|---------------|
-| `shopping_cart.py` | Multi-item cart with grand total | Lists, `while` loop |
-| `quiz_game.py` | 5-question multiple choice quiz | Tuples, `enumerate`, scoring |
-| `concession_stand.py` | Food ordering with nested menus | Dictionaries, nested loops |
-| `banking_function.py` | Deposit/withdraw with functions | Functions, global state |
-| `diary_app.py` | Persistent diary with timestamps | File I/O, `datetime` module |
-| `number_guessing.py` | Guess 1–100 with hints | `random`, `while` loop |
-| `rock_paper_scissors.py` | Best-of-3 vs computer | `random`, dictionaries |
-
-## 🔴 Advanced Projects
-
-| File | Description | Concepts Used |
-|------|-------------|---------------|
-| `oop_banking.py` | Full bank account using OOP | Classes, encapsulation, `__str__` |
-| `slot_machine.py` | Bet-based slot machine game | OOP patterns, `random`, game logic |
-| `encryption_program.py` | Substitution cipher encrypt/decrypt | `string` module, list shuffling, decorators |
-
-## ▶️ How to Run
-
-```bash
-python beginner_projects/mad_libs.py
-python intermediate_projects/quiz_game.py
-python advanced_projects/oop_banking.py
-```
-
-Requires **Python 3.10+**. No third-party packages needed — only standard library modules (`random`, `time`, `string`, `datetime`).
+| # | Project | Description | Run Online |
+|---|---------|-------------|------------|
+| 1 | **Encryption Program** | Encrypt and decrypt messages using cipher | [![Run](https://img.shields.io/badge/▶%20Run%20Online-F44336?style=flat-square)](https://www.programiz.com/online-compiler/6UztNq6ByZ8gt) |
+| 2 | **OOP Banking System** | Full banking system with OOP — classes, inheritance | [![Run](https://img.shields.io/badge/▶%20Run%20Online-F44336?style=flat-square)](https://www.programiz.com/online-compiler/3O0aoHXg4KdFf) |
+| 3 | **Slot Machine** | Casino-style slot machine simulation | [![Run](https://img.shields.io/badge/▶%20Run%20Online-F44336?style=flat-square)](https://www.programiz.com/online-compiler/20mYGhde3UQrw) |
 
 ---
-*Made with ❤️
+
+## 🚀 How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/sidducv0528/Python-Fundamentals-and-Mini-Projects.git
+cd Python-Fundamentals-and-Mini-Projects
+
+# Run any project
+cd mini_projects
+python calculator.py
+```
+
+Or open the notebook in Colab:
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/sidducv0528/4bc6d082277f6d37144682cda33745af/python_fundamentals_portfolio.ipynb)
+
+---
